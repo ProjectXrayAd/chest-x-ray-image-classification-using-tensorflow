@@ -1,0 +1,50 @@
+
+conda create --name gpu39 --python 3.9
+conda activate myenv
+pip install --upgrade tensorflow
+conda install pandas
+conda install jupyter
+pip install matplotlib
+pip install ipykernel
+pip install scipy
+python -m ipykernel install --user --name myenv --display-name "PP39 (myenv)"
+jupyter notebook
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
